@@ -21,3 +21,7 @@ This will change the color of all thumbnails for posts from Google.
 }
 ```
 This will change the color of all thumbnails for posts with the linkflair "truth," along with its associalted linkflair label.
+
+## Screenshot
+
+![screenshot](http://i.imgur.com/6Mnw6Z1.png)
