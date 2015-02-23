@@ -20,4 +20,4 @@ This will change the color of all thumbnails for posts from Google.
     background-color: #673AB7;
 }
 ```
-This will change the color of all thumbnails for posts with the linkflair "truth."
+This will change the color of all thumbnails for posts with the linkflair "truth," along with its associalted linkflair label.
