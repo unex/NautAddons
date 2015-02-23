@@ -1,0 +1,89 @@
+/* Addon: More Submit buttons */
+
+.side .md h5 {
+position: absolute;
+top: 200px;
+box-shadow: 0px 1px 5px rgba(0,0,0,0.24);
+background-color: #516ae8;
+background-image: url(%%spritesheet%%);
+background-position: 268px -214px;
+background-repeat: no-repeat;
+right: 16px;
+width: 300px;
+height: 36px;
+border-radius: 2px;
+line-height: 36px;
+border: none;
+text-align: left;
+padding: 0px 16px;
+transition: all 0.25s ease;
+font-family: verdana,arial,sans-serif;
+cursor: pointer;
+margin: 0;
+}
+
+.side .md h5:hover {
+background-color: #5a72ee;
+box-shadow: 0px 5px 8px rgba(0,0,0,0.48);
+}
+
+.side .md. h5:active {
+background-color: #4059DB;
+box-shadow: 0px 8px 12px rgba(0,0,0,0.60);
+}
+
+.side .md h5:after {
+content: "Please remember to read the rules. Thank you!";
+padding: 16px;
+width: 300px;
+position: absolute;
+right: 0px;
+margin-top: 0px;
+display: block;
+background-color: #516AE8;
+color: #fff;
+letter-spacing: 0px;
+z-index: 100;
+opacity: 0;
+transition: all 0.25s ease;
+transition-delay: 0s;
+font-weight: normal;
+line-height: 1.4em;
+border-radius: 2px 2px 0px 0px;
+box-shadow: 0px 1px 5px rgba(0,0,0,0.16);
+visibility: hidden;
+pointer-events: none;
+}
+
+.side .md h5:hover:after {
+margin-top: 16px;
+opacity: 100;
+visibility: visible;
+transition-delay: 0.25s;
+}
+
+.side .md h5 a {
+color: #fff;
+font-weight: normal;
+font-size: 14px;
+letter-spacing: 0px;
+}
+
+.side .md h5:nth-of-type(1) { /* Selects the first custom button */
+top: 498px; /* Add 52 to the position of the lowest normal submit button */
+}
+
+.side .md h5:nth-of-type(2) { /* Selects the first custom button */
+top: 550px; /* Add 52 to the positon of the button above */
+background-position: 238px -90px;
+}
+
+/* You need to add 52 to each of the below values for each of the submit buttons you add 
+(You have to use double negatives to add because reddit CSS breaks with addition) */
+
+.side                          {margin-top:    calc(498px - -52px - -52px);}
+.comments-page .side           {margin-top:    calc(610px - -52px - -52px);}
+.search-page .side             {margin-top:    calc(446px - -52px - -52px);}
+.comments-page .side .linkinfo {margin-top:    calc(298px - -52px - -52px);}
+
+/* END ADDON */
