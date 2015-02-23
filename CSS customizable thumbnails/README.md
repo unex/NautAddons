@@ -1,5 +1,5 @@
-# Addon: Sidebar Image
-This addon allows you to add an image on the top of your sidebar
+# Addon: CSS customizable thumbnails
+This addon allows you to customize thumbnails based on flair or destination.
 
 ## Installation:
 Simply copy the CSS from ADDON.css into the *bottom* of your stylesheet.
