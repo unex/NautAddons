@@ -83,6 +83,7 @@ background-position: 238px -90px;
 
 .side                          {margin-top:    calc(498px - -52px - -52px);}
 .comments-page .side           {margin-top:    calc(610px - -52px - -52px);}
+.res .comments-page .side      {margin-top:    calc(624px - -52px - -52px);}
 .search-page .side             {margin-top:    calc(446px - -52px - -52px);}
 .comments-page .side .linkinfo {margin-top:    calc(298px - -52px - -52px);}
 
