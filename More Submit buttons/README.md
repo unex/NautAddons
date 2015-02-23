@@ -11,3 +11,7 @@ Add this to the **top** of your sidebar
 ```
 
 Then, copy the CSS from ADDON.css into the *bottom* of your stylesheet.
+
+## Screenshot
+
+![screenshot](http://i.imgur.com/SLIwL4b.png)
