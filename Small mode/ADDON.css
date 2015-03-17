@@ -1,0 +1,25 @@
+/* Addon: Small Mode */
+
+.side .titlebox .md h6:last-of-type a:first-of-type, .side .titlebox .md h6:last-of-type a:nth-of-type(2) {text-align: center;font-size: 9px;font-weight: 900;font-family: normal x-small verdana,arial,helvetica,sans-serif;border-radius: 2px;position: absolute;right: 10px;z-index: 9999999;width: 80px;height: 18px;transition: .25s ease;box-shadow: 0 1px 5px rgba(0,0,0,0.24)!important;top: 34px;background: #eee;z-index: 9999;}
+.side .titlebox .md h6:last-of-type a:first-of-type:hover, .side .titlebox .md h6:last-of-type a:nth-of-type(2):hover {background: #fff;}
+.side .titlebox .md h6:last-of-type a:nth-of-type(2) {display:none}
+
+html[lang^="sm"] .side .titlebox .md h6:last-of-type a:nth-of-type(2) {display:block}
+html[lang^="sm"] .side .titlebox .md h6:last-of-type a:first-of-type { display: none; }
+html[lang^="sm"] .sidecontentbox .content { margin: 0 }
+html[lang^="sm"] #header .pagename a { background: none;width: initial;height: initial;text-indent: 0;margin: 0 4px; padding: 11px; }
+html[lang^="sm"] #header .pagename a:hover {background-color: rgba(0,0,0,.1);}
+html[lang^="sm"] #header .pagename {top: initial;width: initial;display: inline-block;position: relative;margin: 0;z-index: initial;}
+html[lang^="sm"] .content:before                 {height:            calc(414px - 240px);}
+html[lang^="sm"] #header-bottom-left             {top:               calc(276px - 240px); width: initial;}
+html[lang^="sm"] .content                        {margin-top:        calc(342px - 240px);} 
+html[lang^="sm"] #search                         {top:               calc(342px - 240px);}
+html[lang^="sm"] .morelink                       {top:               calc(394px - 240px);}
+html[lang^="sm"] .search-page .morelink          {top:               calc(338px - 240px);}
+html[lang^="sm"] .side                           {margin-top:        calc(446px - 240px);} 
+html[lang^="sm"] .search-page .side              {margin-top:        calc(394px - 240px);} 
+html[lang^="sm"] .comments-page .side            {margin-top:        calc(558px - 240px);}
+html[lang^="sm"] .res .comments-page .side       {margin-top:        calc(608px - 240px);}
+html[lang^="sm"] .comments-page .side .linkinfo  {margin-top:        calc(246px - 240px);} 
+
+/* End Addon */
