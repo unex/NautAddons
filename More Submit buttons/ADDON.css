@@ -1,5 +1,9 @@
 /* Addon: More Submit buttons */
 
+.sidebox.submit.submit-text {display: block;}
+.sidebox.submit.submit-text .morelink              {top: 446px;}
+.search-page .sidebox.submit.submit-text .morelink {top: 394px;}
+
 .side .md h5 {
 position: absolute;
 top: 200px;
