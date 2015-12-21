@@ -1,17 +1,16 @@
 /* ADDON: RE-ENABLE SUBMIT TEXT */
 
-.submit-page #newlink.submit.content ul.tabmenu.formtab { margin-bottom: 0; z-index: 11; position: relative;}
+.submit-page #newlink.submit.content ul.tabmenu.formtab { margin-bottom: 0; z-index: 11; position: relative; box-shadow: none;}
 .submit .formtabs-content { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; z-index: 10}
 .submit .spacer:first-child { display: none !important }
-.submit .spacer:nth-last-child(2) { -webkit-order: -1; -ms-flex-order: -1; order: -1; margin-top: 0;}
-.submit .spacer:nth-last-child(2) .roundfield { background-color: #000; border-radius: 0 0 2px 2px;}
-.submit .spacer:nth-last-child(2) .roundfield .md, .submit .spacer:nth-last-child(2) .roundfield .md a {color: #fff;}
-.submit .spacer:nth-last-child(2) .roundfield .md a { text-decoration: underline }
-.submit.content .spacer, .submit .roundfield { margin-bottom: 0; }
+.submit .spacer:nth-last-child(2) { -webkit-order: -1; -ms-flex-order: -1; order: -1;}
+.submit .spacer:nth-last-child(2) .roundfield { background-color: #000; border-radius: 3px; margin-top: -70px; padding-top: 70px;}
+.submit .spacer:nth-last-child(2) .roundfield .md {color: #fff;}
+.submit.content .spacer, .submit .roundfield { margin-bottom: 0;}
 
 /* CONFIG */
 
-    /* BOX BACKGROUND: */ .submit .spacer:nth-last-child(2) .roundfield { background-color: #516AE8 }
+    /* BOX BACKGROUND: */ .submit .spacer:nth-last-child(2) .roundfield { background-color: #0079D3 }
 
 /* END CONFIG */
 /* END ADDON */

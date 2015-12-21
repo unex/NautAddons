@@ -7,4 +7,4 @@ Copy the CSS from ADDON.css into the *bottom* of your stylesheet.
 
 ## Screenshot
 
-![screenshot](http://i.imgur.com/16tWuKh.jpg)
+![screenshot](http://i.imgur.com/A1kqSad.jpg)
