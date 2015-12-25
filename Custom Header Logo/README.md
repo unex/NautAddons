@@ -1,3 +1,5 @@
+This addon is technically deprecated, but some people preferred it over /u/Cryptonaut's logo addon.
+
 # Addon: Custom header logo
 This addon allows you to add a custom logo in your header.
 

@@ -1,24 +1,24 @@
 /* Addon: Custom Header Logo */
 
-#header .pagename a {padding:0;position:absolute;text-indent:-9999px;margin:0;top:-278px;background:url(%%logo%%);background-position:0 0;background-repeat:no-repeat;}
+#header .pagename a {padding:0;position:absolute;text-indent:-9999px;margin:0;top:-36px;background:url(%%logo%%);background-position:0 0;background-repeat:no-repeat;left: 62px;}
 #header .pagename a:hover {background-color:transparent;}
+.submit-page #header-bottom-left {top: 58px;left: 16px;margin-left: initial;}
     
 /* CENTER */
 #header-bottom-left {width:calc(100% - 32px)}
-#header .pagename {width:100%;display:block;position:absolute;top:-278px;z-index: -1;}
+#header .pagename {position:absolute;width:100%;display:block;top:-76px;z-index: -1;}
 .submit-page #header .pagename {top: -36px;}
-#header .pagename a {position:relative;display:block;top:0;margin-left: auto;margin-right: auto;}
+#header .pagename a {position:relative;display:block;top:0;margin-left: auto;margin-right: auto; left:0;}
 /* END CENTER */
 
 .submit-page .content {
-margin-top: 342px; /* How far the submit box is from the top.  Is best if same as body>.content */
+margin-top: 32px; /* How far the submit box is from the top.  Is best if same as body>.content */
 }
 
 #header .pagename a {
-margin-top:    122px; /* Space from top */
-left:          0;     /* Space from left */
-width:         300px; /* Width of image */
-height:        82px;  /* Half the height of your image */
+margin-top:    36px; /* Space from top */
+width:         190px; /* Width of image */
+height:        52px;  /* Half the height of your image */
 }
 
 #header .pagename a:hover {
