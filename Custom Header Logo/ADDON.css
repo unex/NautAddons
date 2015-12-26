@@ -1,12 +1,13 @@
 /* Addon: Custom Header Logo */
 
-#header .pagename a {padding:0;position:absolute;text-indent:-9999px;margin:0;top:-36px;background:url(%%logo%%);background-position:0 0;background-repeat:no-repeat;left: 62px;}
+#header .pagename {  height: 0 }
+#header .pagename a {padding:0;position:absolute;text-indent:-9999px;margin:0;top:-36px;background:url(%%logo%%);background-position:0 0;background-repeat:no-repeat;left: 62px;z-index: 100;}
 #header .pagename a:hover {background-color:transparent;}
 .submit-page #header-bottom-left {top: 58px;left: 16px;margin-left: initial;}
     
 /* CENTER */
 #header-bottom-left {width:calc(100% - 32px)}
-#header .pagename {position:absolute;width:100%;display:block;top:-76px;z-index: -1;}
+#header .pagename {position:absolute;width:100%;display:block;top:-76px;}
 .submit-page #header .pagename {top: -36px;}
 #header .pagename a {position:relative;display:block;top:0;margin-left: auto;margin-right: auto; left:0;}
 /* END CENTER */
