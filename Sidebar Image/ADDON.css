@@ -1,9 +1,0 @@
-/* ADDON: SIDEBAR IMAGE */
-
-.side:before {display:block;position:relative;width:300px;margin:-6px -16px 18px;border-radius:4px 4px 0 0;vertical-align:bottom;text-align:center;font-size:14px;line-height:26px;color:#fff;background: url(%%side%%) no-repeat; /* Your image */
-padding-top:300px; /* Height of image */
-content:"Polygon Tiger"; /* Caption */
-background-color: #212121; /* Color behind caption */
-}
-
-/* END ADDON */
